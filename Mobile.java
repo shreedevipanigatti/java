@@ -1,0 +1,5 @@
+public enum Mobile
+{
+	VIVO,OPPO,NOKIA,REDMI,REALME,APPLE,ONEPLUS,SUMSUNG;
+	
+}
