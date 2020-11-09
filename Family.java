@@ -1,0 +1,6 @@
+public enum Family 
+{
+	
+GRANDPA,GRANDMAA,FATHER,MOTHER,UNCLE,AUNTY,SON,DAUGHTER
+	
+}
