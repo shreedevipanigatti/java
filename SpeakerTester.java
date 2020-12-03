@@ -21,7 +21,6 @@
 				
 				speaker.onOrOff();
 				
-				speaker.increaseVolume();
 				speaker.decreaseVolume();
 				
 				speaker.onOrOff();
@@ -36,5 +35,9 @@
 			}
 
 		}
+
+
+
+
 
 
