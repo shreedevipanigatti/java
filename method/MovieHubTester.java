@@ -1,26 +1,36 @@
 package com.xworkz.method;
 
-//import java.util.Array;
- import com.xworkz.method.theater.MovieHub;
+
+import java.util.Arrays;
+
+import com.xworkz.theater.MovieHub;
+
 public class MovieHubTester {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		String[] movieNames= {"Diya","KGF","Arasu","Titanic"};
-		 
-		MovieHub movieHub=new MovieHub("PVR",500,movieNames);
-		
+		String[] movieNames = { "PK", "Chennai Express", "KGF", "Departed", "Zodiac", "KGF2", "Inception",
+				"Interstellar", "Yajamana" };
+
+		MovieHub movieHub = new MovieHub("Navrang", 500, movieNames);
 		System.out.println(movieHub.getTheaterName());
 		System.out.println(movieHub.getTotalTickets());
-		//String convertedMovieNames=Array.toString(movieHub.getMovieName());
-	//	System.out.println(convertedMovieNames());
-		
-		movieHub.bookTicketsAndGetTotalPrice("Yajaman",5,"Shree");
-		movieHub.bookTicketsAndGetTotalPrice("LoveMakatail",15,"Sahana");
-		movieHub.bookTicketsAndGetTotalPrice("Diya",50,"Shushma");
+		String convertedMovieNames = Arrays.toString(movieHub.getMovieNames());
+		System.out.println(convertedMovieNames);
+
+		double price = movieHub.bookTicketsAndGetTotalPrice("KGF", 4, "Rajashree");
+		System.out.println("************"+price);
+		// add logic for max 10 tickets
+		movieHub.bookTicketsAndGetTotalPrice("PK", 493, "Vishalakshi");
+
+		movieHub.bookTicketsAndGetTotalPrice("KGF2", 4, "X-workz");
+
+	}
+
+
+
 		
 		
 		}
 
-}
+
