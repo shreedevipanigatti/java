@@ -3,7 +3,6 @@ package com.xworkz.dtObject.DTO;
 public class MobileDTO {
 
 	private String name;
-	// private String brand;
 	private String color;
 	private int batteryCapacity;
 	private String storage;
