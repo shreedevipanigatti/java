@@ -11,7 +11,7 @@ public class MobileDTO {
 
 	public MobileDTO(String name) {
 		this.name = name;
-		// this.brand=brand;
+		
 	}
 
 	public MobileDTO(String color, String Storage, int batteryCapacity, int price) {
