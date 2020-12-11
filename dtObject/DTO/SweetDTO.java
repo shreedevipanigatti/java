@@ -1,69 +1,68 @@
-package com.xworkz.dtObject.DTO;
+package com.xworkz.DTO.sweet;
 
 public class SweetDTO {
-	
-	enum Shape{
-		Round,Triangle,DIAMOND,RECTANGLE
-	}
 
-		 private String name;
-	     private int price;
-	     private String[] color;
-	     private String popularState;
-	     private Shape shape;
-	     private String quantity;
-	     
-	     public SweetDTO(String name,int price) {
-	    	 this.name=name;
-	    	 this.price=price;
-	     }
-	     Shape s1=Shape.Round;
-	     public SweetDTO(String popularState,String quantity,String[] color) {
-	    	 this.color=color;
-	    	 this.popularState=popularState;
-	         this.quantity=quantity;
-	     }
+	
+		private String name;
+		private double price;
+		private String popularState;
+		private String[] color;
+		private Shape shape;
+
+		public SweetDTO() {
+			System.out.println("default constructor");
+		}
+
+		public SweetDTO(String name, String popularState, String[] color, Shape shape) {
+			super();
+			this.name = name;
+			this.popularState = popularState;
+			this.color = color;
+			this.shape = shape;
+			
+		}
+
 		public String getName() {
 			return name;
 		}
+
 		public void setName(String name) {
 			this.name = name;
 		}
-		public int getPrice() {
+
+		public double getPrice() {
 			return price;
 		}
-		public void setPrice(int price) {
+
+		public void setPrice(double price) {
 			this.price = price;
 		}
-		public String[] getColor() {
-			return color;
-		}
-		public void setColor(String[] color) {
-			this.color = color;
-		}
+
 		public String getPopularState() {
 			return popularState;
 		}
+
 		public void setPopularState(String popularState) {
 			this.popularState = popularState;
 		}
+
+		public String[] getColor() {
+			return color;
+		}
+
+		public void setColor(String[] color) {
+			this.color = color;
+		}
+
 		public Shape getShape() {
 			return shape;
 		}
+
 		public void setShape(Shape shape) {
 			this.shape = shape;
 		}
-		public String getQuantity() {
-			return quantity;
-		}
-		public void setQuantity(String quantity) {
-			this.quantity = quantity;
-		}
-	     
+
 	}
-	
-
-
 
 
 
