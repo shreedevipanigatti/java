@@ -24,12 +24,12 @@ public static void main(String[] args) {
 			
 			FileDTO fileDTO1=new FileDTO("Logo.jpg",234.11 );
 			System.out.println(fileDTO1.getName());
-			fileDTO1.setName("Family photo");
+			fileDTO1.setName("Friends photo");
 			System.out.println(fileDTO1.getName());
 			System.out.println(fileDTO1.getSize());
 			
 			Date date=new Date();
-			FileDTO fileDTO3=new FileDTO("Resume.pdf", "D://Documents", "PDF", 83.4, date);
+			FileDTO fileDTO3=new FileDTO("Resume.pdf", "E://Documents", "PDF", 83.4, date);
 			System.out.println(fileDTO3.getName());
 			System.out.println(fileDTO3.getType());
 			System.out.println(fileDTO3.getLocation());
