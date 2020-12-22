@@ -1,8 +1,6 @@
 package com.xworkz.bakery.chocolate;
 
-import com.xworkz.bakery.ChocolateTester;
-
-public class DairyMilk extends ChocolateTester{
+public class DairyMilk extends Chocolate{
 	private boolean chocolate;
 
 	public boolean isDairy() {
