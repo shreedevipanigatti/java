@@ -1,5 +1,10 @@
 package com.xworkz.bakery;
 
+import com.xworkz.bakery.chocolate.Chocolate;
+import com.xworkz.bakery.chocolate.DairyMilk;
+
+package com.xworkz.bakery;
+
 
 import com.xworkz.bakery.chocolate.Chocolate;
 import com.xworkz.bakery.chocolate.DairyMilk;
@@ -23,9 +28,9 @@ public class ChocolateTester {
 
 		dairyMilk.setChocolateName("DairyMilk");
 		dairyMilk.setPrice(50);
-		dairyMilk.setShape(Square);
+		dairyMilk.setShape("Square");
 
-		System.out.println(dairyMilk.getCholoateName());
+		System.out.println(dairyMilk.getChocolateName());
 		System.out.println(dairyMilk.getPrice());
 		System.out.println(dairyMilk.getShape());
 
@@ -36,5 +41,7 @@ public class ChocolateTester {
 
 
 	}
+
+	
 
 	
