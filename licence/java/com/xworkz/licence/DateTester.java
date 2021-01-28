@@ -20,7 +20,7 @@ public class DateTester {
 
 		SimpleDateFormat format2 = new SimpleDateFormat("MM-dd-yyyy");
 
-		Date date2 = format2.parse("16-03-1996");
+		Date date2 = format2.parse("20-05-1998");
 
 		System.out.println(date2);
 
