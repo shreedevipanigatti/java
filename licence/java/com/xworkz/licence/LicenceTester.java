@@ -14,11 +14,11 @@ import com.xworkz.licence.dto.LicenceDTO;
 public class LicenceTester {
 
 	public static void main(String[] args) {
-		AddressDTO dto = new AddressDTO("sahana", "NA", 810, "Guru Krupa", "Hubli", "KA", 581118);
+		AddressDTO dto = new AddressDTO("shree", "NA", 810, "Shree Guru", "Hubli", "KA", 581118);
 		System.out.println(dto);
 
 		Date date = new Date();
-		CommonDTO commonDTO = new CommonDTO("sana", 22, date, 8197425810l, BloodGroup.O_POSITIVE, Gender.FEMALE);
+		CommonDTO commonDTO = new CommonDTO("madhu", 22, date, 8197425810l, BloodGroup.O_POSITIVE, Gender.FEMALE);
 		System.out.println(commonDTO);
 
 		LicenceDTO licenseDTO = new LicenceDTO();
